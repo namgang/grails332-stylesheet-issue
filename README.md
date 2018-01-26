@@ -6,6 +6,8 @@ You may use the `setup.sh` file to customize your environment with respect to Gr
 In a Bash shell, say `. setup.sh` to make the settings take effect.
 Feel free to use any other mechanism to set up the desired environment.
 
+However, note that `setup.sh` provides a workaround for https://github.com/grails/grails-core/issues/10877 .
+
 ## Start the App
 Start the app by invoking the Grails command line. Then:
 ```bash
@@ -21,5 +23,5 @@ The initial view is a list of Pings.
 There is only one.
 Move the pointer to the first (and only) item in the list.
 
-Note how identical background and foreground colors make contents disappear.
-That's all.
+Watch how identical background and foreground colors make contents disappear.
+That's the point of this app.
