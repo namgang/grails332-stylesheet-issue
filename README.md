@@ -20,4 +20,6 @@ The database is initialized with a Ping that has a number of Pongs.
 The initial view is a list of Pings.
 There is only one.
 Move the pointer to the first (and only) item in the list.
+
 Note how identical background and foreground colors make contents disappear.
+That's all.
